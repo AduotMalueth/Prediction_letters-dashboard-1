@@ -34,8 +34,6 @@ Results: The model achieved an accuracy of 95% and demonstrated strong performan
 # Conclusion: 
 The project successfully demonstrated the potential of using non-traditional factors to predict student grades. Further research could explore the impact of different RNN architectures and hyperparameter tuning on model performance.
 
+[Watc the AI project utube here](https://youtu.be/-9WdRGglLmk?si=mIuXcBnFyoyDpt4E)
+
 [Image of Web Interface](path/to/your/image.png)
-
-[Watch a demo of the web interface](https://youtu.be/your_video_link)
-
-[Watch the project video here](https://youtu.be/-9WdRGglLmk?si=mIuXcBnFyoyDpt4E)
