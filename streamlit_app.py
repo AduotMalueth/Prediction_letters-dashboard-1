@@ -9,12 +9,36 @@ import joblib
 import pandas as pd
 import os
 
-scaler_path = 'scaler.pkl'
-if os.path.exists(scaler_path):
-    scaler = joblib.load(scaler_path)
-else:
-    st.error(f"Scaler file not found at path: {scaler_path}")
+scaler_path = 'C:/Users/user/Downloads/scaler.pkl'
+model_path = "C:/Users/user/Downloads/model.pkl"
 
+def load_scaler():
+    try:
+        if os.path.isfile(scaler_path):
+            return joblib.load(scaler_path)
+        else:
+            st.error(f"Scaler file not found at path: {scaler_path}")
+            return None
+    except Exception as e:
+        st.error(f"Error loading scaler: {e}")
+        return None
+
+def load_model():
+    try:
+        if os.path.isfile(model_path):
+            return joblib.load(model_path)
+        else:
+            st.error(f"Model file not found at path: {model_path}")
+            return None
+    except Exception as e:
+        st.error(f"Error loading model: {e}")
+        return None
+
+# Load scaler and model
+scaler = load_scaler()
+model = load_model()
+
+# You can now use scaler and model for your predictions or other tasks
 
 # Input fields for the user
 age = st.number_input('Age', min_value=0, max_value=100)
