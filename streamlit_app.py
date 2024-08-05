@@ -7,7 +7,6 @@ st.write(
 import streamlit as st
 import joblib
 import pandas as pd
-import pickle
 import os
 
 scaler_path = 'scaler.pkl'
