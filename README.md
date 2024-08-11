@@ -37,4 +37,10 @@ The project successfully demonstrated the potential of using non-traditional fac
 [Watc the AI project utube here](https://youtu.be/-9WdRGglLmk?si=mIuXcBnFyoyDpt4E)
 
 
+
 [Web app interface](http://localhost:8501/)
+
+
+
+[Predicting Student GPA Using Course and Major Data: An AI Approach](https://docs.google.com/document/d/1dFh7-1Qn3cJs0QoD3lVnzRyaavKArHwZ3tZpw5a-CXs/edit)
+
